@@ -1,0 +1,68 @@
+div.gallery {
+
+
+    margin: 5px;
+    border: 5px solid #45d1be;
+    float: left;
+    width: 20%;
+    animation-name: colorin;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes colorin {
+    from {
+        border: 5px solid #75ffed;
+    }
+
+    to {
+        border: 5px solid #45d1be;
+    }
+
+}
+
+@keyframes colorout {
+    from {
+        border: 5px solid #45d1be;
+    }
+
+    to {
+        border: 5px solid #75ffed;
+    }
+}
+
+div.gallery:hover {
+    animation-name: colorout;
+    animation-duration: 0.7s;
+
+}
+
+div.gallery img,
+video {
+    max-width: 100%;
+    height: auto;
+    width: auto \ 9;
+}
+
+
+
+div.desc {
+    padding: 2%;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+
+#footer2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 85%;
+    left: 50%;
+}
+
+body {
+    padding-bottom: 1000px;
+}
