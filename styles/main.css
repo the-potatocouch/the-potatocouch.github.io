@@ -94,6 +94,7 @@ marquee {
     background-image: linear-gradient(120deg, #155799, #159957);
     overflow: hidden;
     margin-bottom: 100px;
+    border-radius: 30px;
 
 }
 
