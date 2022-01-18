@@ -8,7 +8,8 @@ div.gallery {
     animation-name: colorin;
     animation-duration: 0.7s;
     animation-fill-mode: forwards;
-
+    margin-left: 8%;
+    margin-top: 8%;
 }
 
 @keyframes colorin {
@@ -61,8 +62,4 @@ div.desc {
     width: 100%;
     font-size: 85%;
     left: 50%;
-}
-
-body {
-    padding-bottom: 2000px;
 }

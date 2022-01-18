@@ -89,7 +89,7 @@ marquee {
 }
 
 .topnav {
-
+    z-index: 300;
     background-color: #333;
     background-image: linear-gradient(120deg, #155799, #159957);
     overflow: hidden;
@@ -99,6 +99,7 @@ marquee {
 }
 
 .topnav a {
+    z-index: 301;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -109,8 +110,8 @@ marquee {
     animation-name: topnav-hvr-out;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    margin-right: 4%;
-    border-radius: 10%;
+    margin-left: 4%;
+    border-radius: 20%;
 }
 
 .topnav a:hover {
@@ -186,4 +187,53 @@ marquee {
 .sources {
     margin-left: 180px;
     padding-bottom: 10px;
+}
+
+.sourceslist {
+    z-index: 1;
+}
+
+.custom-shape-divider-top-1642461718 {
+    position: fixed;
+    z-index: -1;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: scaley(10);
+}
+
+.custom-shape-divider-top-1642461718 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 39px;
+
+}
+
+.custom-shape-divider-top-1642461718 .shape-fill {
+    fill: #9CF1BF;
+}
+
+.custom-shape-divider-bottom-1642462227 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1642462227 svg {
+    position: relative;
+    display: block;
+    width: calc(175% + 1.3px);
+    height: 283px;
+}
+
+.custom-shape-divider-bottom-1642462227 .shape-fill {
+    fill: #9CF1E4;
 }
