@@ -53,7 +53,8 @@ div.desc {
     text-align: center;
     font-style: italic;
     font-family: sans-serif;
-    background-color: antiquewhite;
+    background-color: hsl(34, 78%, 91%, .3);
+    backdrop-filter: blur(4px);
 }
 
 #footer2 {

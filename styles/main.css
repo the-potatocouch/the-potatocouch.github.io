@@ -90,15 +90,22 @@ marquee {
 
 .topnav {
     z-index: 300;
+    /*
     background-color: #333;
-    background-image: linear-gradient(120deg, #155799, #159957);
+    */
+    background-color: hsla(200, 100%, 0%, .4);
+    backdrop-filter: blur(4px);
+    /*background-image: linear-gradient(120deg, #155799, #159957);*/
+    padding-top: 1%;
     overflow: hidden;
     margin-bottom: 100px;
     border-radius: 30px;
+    filter: drop-shadow(0 0 0.75rem gray);
 
 }
 
 .topnav a {
+    margin-bottom: 1%;
     z-index: 301;
     float: left;
     color: #f2f2f2;
@@ -111,21 +118,23 @@ marquee {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     margin-left: 4%;
-    border-radius: 20%;
+    border-radius: 10px;
+
 }
 
 .topnav a:hover {
     animation-name: topnav-hvr-in;
     animation-duration: 0.5s;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .homebutton {
-    max-width: 8%;
-    max-height: 8%;
+    max-width: 5%;
+    max-height: 5%;
     float: left;
     border-radius: 15px;
     margin-right: 5%;
+    margin-left: 3%;
 }
 
 
@@ -144,6 +153,22 @@ marquee {
 
 .dsc {
     font-family: "consolas", sans-serif;
+    margin-left: 10%;
+    color: aliceblue;
+
+}
+
+.dscdiv {
+    background-color: hsla(200, 100%, 0%, .4);
+    backdrop-filter: blur(4px);
+    width: 40%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    filter: drop-shadow(0 0 0.75rem gray);
+    padding-top: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+
 }
 
 .socials {
