@@ -115,7 +115,7 @@ marquee {
     font-size: 17px;
     font-family: consolas, monospace;
     animation-name: topnav-hvr-out;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
     margin-left: 4%;
     border-radius: 10px;
@@ -124,7 +124,7 @@ marquee {
 
 .topnav a:hover {
     animation-name: topnav-hvr-in;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     border-radius: 10px;
 }
 
