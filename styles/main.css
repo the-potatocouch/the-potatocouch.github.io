@@ -1,5 +1,6 @@
 body {
     background-color: #66CDAA;
+    padding-bottom: 20em;
 }
 
 .profile {
@@ -22,6 +23,7 @@ body {
     font-style: italic;
     color: #fff3d4;
     text-shadow: 1px 1px #000000;
+
 
 }
 
@@ -54,7 +56,7 @@ marquee {
     }
 
     from {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
     to {
@@ -84,7 +86,27 @@ marquee {
     }
 
     to {
-        transform: scale(1.2);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes a-grow {
+    from {
+        font-size: 17px;
+    }
+
+    to {
+        font-size: 20.5px;
+    }
+}
+
+@keyframes a-shrink {
+    from {
+        font-size: 20.5px;
+    }
+
+    to {
+        font-size: 17px;
     }
 }
 
@@ -115,7 +137,7 @@ marquee {
     font-size: 17px;
     font-family: consolas, monospace;
     animation-name: topnav-hvr-out;
-    animation-duration: 0.3s;
+    animation-duration: 0.1s;
     animation-fill-mode: forwards;
     margin-left: 4%;
     border-radius: 10px;
@@ -169,14 +191,53 @@ marquee {
     padding-right: 1%;
     border-radius: 10px;
 
+
+}
+
+.dscdiv img {
+    max-width: 20px;
 }
 
 .socials {
 
     font-family: "consolas", sans-serif;
     font-size: 20px;
-    padding-top: 5%;
-    padding-left: 15%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: aliceblue;
+    background-color: hsla(200, 100%, 0%, .4);
+    backdrop-filter: blur(4px);
+    width: 40%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    filter: drop-shadow(0 0 0.75rem gray);
+
+    padding-right: 1%;
+    border-radius: 10px;
+
+}
+
+a:hover {
+    animation-name: a-grow;
+    animation-duration: 0.35s;
+    animation-fill-mode: forwards;
+    color: aquamarine;
+}
+
+a {
+    animation-name: a-shrink;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    color: indianred;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
+a:visited:hover {
+    color: aquamarine;
 }
 
 .socials img {
@@ -199,7 +260,10 @@ marquee {
 
 .sources {
     font-family: monospace;
+
+    font-size: 17px;
 }
+
 
 #it {
     font-style: italic;
