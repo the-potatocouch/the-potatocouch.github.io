@@ -326,3 +326,7 @@ a:visited:hover {
 .custom-shape-divider-bottom-1642462227 .shape-fill {
     fill: #9CF1E4;
 }
+
+iframe {
+    width: 100%;
+}
