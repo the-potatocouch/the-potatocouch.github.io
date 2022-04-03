@@ -218,6 +218,11 @@ marquee {
 
 }
 
+.socials img {
+    float: left;
+    margin-right: 10px;
+}
+
 a:hover {
     animation-name: a-grow;
     animation-duration: 0.35s;
