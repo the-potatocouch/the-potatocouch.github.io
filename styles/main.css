@@ -1,7 +1,10 @@
 body {
     background-color: #66CDAA;
     padding-bottom: 20em;
+    min-width: 1080px;
+
 }
+
 
 .profile {
     width: 100px;
